@@ -1,0 +1,2784 @@
+[
+  {
+    "name": "Open help for keyword",
+    "keywords": [
+      "help",
+      "keyword",
+      "documentation"
+    ],
+    "command": ":h[elp] keyword",
+    "description": "Opens the help page for the specified keyword in Vim.",
+    "rtorr_description": "%3Ah%5Belp%5D%20keyword%20%2D%20open%20help%20for%20keyword"
+  },
+  {
+    "name": "Save file as",
+    "keywords": [
+      "save",
+      "file",
+      "as"
+    ],
+    "command": ":sav[eas] file",
+    "description": "Saves the current file with the specified file name.",
+    "rtorr_description": "%3Asav%5Beas%5D%20file%20%2D%20save%20file%20as"
+  },
+  {
+    "name": "Close current pane",
+    "keywords": [
+      "close",
+      "pane",
+      "window"
+    ],
+    "command": ":clo[se]",
+    "description": "Closes the current pane in Vim.",
+    "rtorr_description": "%3Aclo%5Bse%5D%20%2D%20close%20current%20pane"
+  },
+  {
+    "name": "Open a terminal window",
+    "keywords": [
+      "terminal",
+      "open",
+      "window",
+      "command line"
+    ],
+    "command": ":ter[minal]",
+    "description": "Opens a terminal window within Vim.",
+    "rtorr_description": "%3Ater%5Bminal%5D%20%2D%20open%20a%20terminal%20window"
+  },
+  {
+    "name": "Open man page for word under the cursor",
+    "keywords": [
+      "man page",
+      "help",
+      "documentation",
+      "cursor"
+    ],
+    "command": "K",
+    "description": "Opens the man page for the word currently under the cursor.",
+    "rtorr_description": "K%20%2D%20open%20man%20page%20for%20word%20under%20the%20cursor"
+  },
+  {
+    "name": "Move cursor left",
+    "keywords": [
+      "cursor",
+      "move",
+      "left",
+      "navigation"
+    ],
+    "command": "h",
+    "description": "Moves the cursor one character to the left.",
+    "rtorr_description": "h%20%2D%20move%20cursor%20left"
+  },
+  {
+    "name": "Move cursor down",
+    "keywords": [
+      "cursor",
+      "move",
+      "down",
+      "navigation"
+    ],
+    "command": "j",
+    "description": "Moves the cursor one line down.",
+    "rtorr_description": "j%20%2D%20move%20cursor%20down"
+  },
+  {
+    "name": "Move cursor up",
+    "keywords": [
+      "cursor",
+      "move",
+      "up",
+      "navigation"
+    ],
+    "command": "k",
+    "description": "Moves the cursor one line up.",
+    "rtorr_description": "k%20%2D%20move%20cursor%20up"
+  },
+  {
+    "name": "Move cursor right",
+    "keywords": [
+      "cursor",
+      "move",
+      "right",
+      "navigation"
+    ],
+    "command": "l",
+    "description": "Moves the cursor one character to the right.",
+    "rtorr_description": "l%20%2D%20move%20cursor%20right"
+  },
+  {
+    "name": "Move cursor down (multi-line text)",
+    "keywords": [
+      "cursor",
+      "move",
+      "down",
+      "navigation",
+      "multi-line",
+      "text"
+    ],
+    "command": "gj",
+    "description": "Moves the cursor down one line, considering wrapped lines as a single line.",
+    "rtorr_description": "gj%20%2D%20move%20cursor%20down%20%28multi-line%20text%29"
+  },
+  {
+    "name": "Move cursor up (multi-line text)",
+    "keywords": [
+      "cursor",
+      "move",
+      "up",
+      "navigation",
+      "multi-line",
+      "text"
+    ],
+    "command": "gk",
+    "description": "Moves the cursor up one line, considering wrapped lines as a single line.",
+    "rtorr_description": "gk%20%2D%20move%20cursor%20up%20%28multi-line%20text%29"
+  },
+  {
+    "name": "Move to top of screen",
+    "keywords": [
+      "cursor",
+      "move",
+      "top",
+      "screen",
+      "navigation"
+    ],
+    "command": "H",
+    "description": "Moves the cursor to the top of the screen.",
+    "rtorr_description": "H%20%2D%20move%20to%20top%20of%20screen"
+  },
+  {
+    "name": "Move to middle of screen",
+    "keywords": [
+      "cursor",
+      "move",
+      "middle",
+      "screen",
+      "navigation"
+    ],
+    "command": "M",
+    "description": "Moves the cursor to the middle of the screen.",
+    "rtorr_description": "M%20%2D%20move%20to%20middle%20of%20screen"
+  },
+  {
+    "name": "Move to bottom of screen",
+    "keywords": [
+      "cursor",
+      "move",
+      "bottom",
+      "screen",
+      "navigation"
+    ],
+    "command": "L",
+    "description": "Moves the cursor to the bottom of the screen.",
+    "rtorr_description": "L%20%2D%20move%20to%20bottom%20of%20screen"
+  },
+  {
+    "name": "Jump forwards to the start of a word",
+    "keywords": [
+      "cursor",
+      "jump",
+      "forward",
+      "word",
+      "navigation"
+    ],
+    "command": "w",
+    "description": "Moves the cursor forward to the beginning of the next word.",
+    "rtorr_description": "w%20%2D%20jump%20forwards%20to%20the%20start%20of%20a%20word"
+  },
+  {
+    "name": "Jump forwards to the start of a word (words can contain punctuation)",
+    "keywords": [
+      "cursor",
+      "jump",
+      "forward",
+      "word",
+      "punctuation",
+      "navigation"
+    ],
+    "command": "W",
+    "description": "Moves the cursor forward to the beginning of the next word, considering punctuation as part of the word.",
+    "rtorr_description": "W%20%2D%20jump%20forwards%20to%20the%20start%20of%20a%20word%20%28words%20can%20contain%20punctuation%29"
+  },
+  {
+    "name": "Jump forwards to the end of a word",
+    "keywords": [
+      "cursor",
+      "jump",
+      "forward",
+      "word",
+      "navigation"
+    ],
+    "command": "e",
+    "description": "Moves the cursor forward to the end of the current word.",
+    "rtorr_description": "e%20%2D%20jump%20forwards%20to%20the%20end%20of%20a%20word"
+  },
+  {
+    "name": "Jump forwards to the end of a word (words can contain punctuation)",
+    "keywords": [
+      "cursor",
+      "jump",
+      "forward",
+      "word",
+      "punctuation",
+      "navigation"
+    ],
+    "command": "E",
+    "description": "Moves the cursor forward to the end of the current word, considering punctuation as part of the word.",
+    "rtorr_description": "E%20%2D%20jump%20forwards%20to%20the%20end%20of%20a%20word%20%28words%20can%20contain%20punctuation%29"
+  },
+  {
+    "name": "Jump backwards to the start of a word",
+    "keywords": [
+      "cursor",
+      "jump",
+      "backwards",
+      "word",
+      "navigation"
+    ],
+    "command": "b",
+    "description": "Moves the cursor backward to the beginning of the previous word.",
+    "rtorr_description": "b%20%2D%20jump%20backwards%20to%20the%20start%20of%20a%20word"
+  },
+  {
+    "name": "Jump backwards to the start of a word (words can contain punctuation)",
+    "keywords": [
+      "cursor",
+      "jump",
+      "backwards",
+      "word",
+      "punctuation",
+      "navigation"
+    ],
+    "command": "B",
+    "description": "Moves the cursor backward to the beginning of the previous word, considering punctuation as part of the word.",
+    "rtorr_description": "B%20%2D%20jump%20backwards%20to%20the%20start%20of%20a%20word%20%28words%20can%20contain%20punctuation%29"
+  },
+  {
+    "name": "Jump backwards to the end of a word",
+    "keywords": [
+      "cursor",
+      "jump",
+      "backwards",
+      "word",
+      "navigation"
+    ],
+    "command": "ge",
+    "description": "Moves the cursor backward to the end of the previous word.",
+    "rtorr_description": "ge%20%2D%20jump%20backwards%20to%20the%20end%20of%20a%20word"
+  },
+  {
+    "name": "Jump backwards to the end of a word (words can contain punctuation)",
+    "keywords": [
+      "cursor",
+      "jump",
+      "backwards",
+      "word",
+      "punctuation",
+      "navigation"
+    ],
+    "command": "gE",
+    "description": "Moves the cursor backward to the end of the previous word, considering punctuation as part of the word.",
+    "rtorr_description": "gE%20%2D%20jump%20backwards%20to%20the%20end%20of%20a%20word%20%28words%20can%20contain%20punctuation%29"
+  },
+  {
+    "name": "Move cursor to matching character",
+    "keywords": [
+      "cursor",
+      "move",
+      "matching",
+      "character",
+      "parentheses",
+      "brackets",
+      "braces",
+      "navigation"
+    ],
+    "command": "%",
+    "description": "Moves the cursor to the matching character of a pair, such as parentheses, brackets, or braces. Use :h matchpairs in Vim for more information on supported pairs.",
+    "rtorr_description": "%25%20%2D%20move%20cursor%20to%20matching%20character%20%28default%20supported%20pairs%3A%20%27%28%29%27%2C%20%27%7B%7D%27%2C%20%27%5B%5D%27%2D%20use%20%20%3Ah%20matchpairs%20%20in%20vim%20for%20more%20info%29"
+  },
+  {
+    "name": "Jump to the start of the line",
+    "keywords": [
+      "cursor",
+      "jump",
+      "start",
+      "line",
+      "navigation"
+    ],
+    "command": "0",
+    "description": "Moves the cursor to the very beginning of the current line.",
+    "rtorr_description": "0%20%2D%20jump%20to%20the%20start%20of%20the%20line"
+  },
+  {
+    "name": "Jump to the first non-blank character of the line",
+    "keywords": [
+      "cursor",
+      "jump",
+      "first",
+      "non-blank",
+      "character",
+      "line",
+      "navigation"
+    ],
+    "command": "^",
+    "description": "Moves the cursor to the first non-blank character on the current line.",
+    "rtorr_description": "%5E%20%2D%20jump%20to%20the%20first%20non-blank%20character%20of%20the%20line"
+  },
+  {
+    "name": "Jump to the end of the line",
+    "keywords": [
+      "cursor",
+      "jump",
+      "end",
+      "line",
+      "navigation"
+    ],
+    "command": "$",
+    "description": "Moves the cursor to the end of the current line.",
+    "rtorr_description": "%24%20%2D%20jump%20to%20the%20end%20of%20the%20line"
+  },
+  {
+    "name": "Jump to the last non-blank character of the line",
+    "keywords": [
+      "cursor",
+      "jump",
+      "last",
+      "non-blank",
+      "character",
+      "line",
+      "navigation"
+    ],
+    "command": "g_",
+    "description": "Moves the cursor to the last non-blank character on the current line.",
+    "rtorr_description": "g_%20%2D%20jump%20to%20the%20last%20non-blank%20character%20of%20the%20line"
+  },
+  {
+    "name": "Go to the first line of the document",
+    "keywords": [
+      "cursor",
+      "go",
+      "first",
+      "line",
+      "document",
+      "navigation"
+    ],
+    "command": "gg",
+    "description": "Moves the cursor to the first line of the document.",
+    "rtorr_description": "gg%20%2D%20go%20to%20the%20first%20line%20of%20the%20document"
+  },
+  {
+    "name": "Go to the last line of the document",
+    "keywords": [
+      "cursor",
+      "go",
+      "last",
+      "line",
+      "document",
+      "navigation"
+    ],
+    "command": "G",
+    "description": "Moves the cursor to the last line of the document.",
+    "rtorr_description": "G%20%2D%20go%20to%20the%20last%20line%20of%20the%20document"
+  },
+  {
+    "name": "Go to line 5",
+    "keywords": [
+      "cursor",
+      "go",
+      "line",
+      "number",
+      "navigation"
+    ],
+    "command": "5gg or 5G",
+    "description": "Moves the cursor to line number 5 in the document.",
+    "rtorr_description": "5gg%20%20or%20%205G%20%2D%20go%20to%20line%205"
+  },
+  {
+    "name": "Move to local declaration",
+    "keywords": [
+      "cursor",
+      "move",
+      "local",
+      "declaration",
+      "code",
+      "navigation"
+    ],
+    "command": "gd",
+    "description": "Moves the cursor to the local declaration of the variable under the cursor (useful for code editing).",
+    "rtorr_description": "gd%20%2D%20move%20to%20local%20declaration"
+  },
+  {
+    "name": "Move to global declaration",
+    "keywords": [
+      "cursor",
+      "move",
+      "global",
+      "declaration",
+      "code",
+      "navigation"
+    ],
+    "command": "gD",
+    "description": "Moves the cursor to the global declaration of the variable under the cursor (useful for code editing).",
+    "rtorr_description": "gD%20%2D%20move%20to%20global%20declaration"
+  },
+  {
+    "name": "Jump to next occurrence of character x",
+    "keywords": [
+      "cursor",
+      "jump",
+      "next",
+      "occurrence",
+      "character",
+      "navigation"
+    ],
+    "command": "fx",
+    "description": "Moves the cursor to the next occurrence of character 'x' on the current line.",
+    "rtorr_description": "fx%20%2D%20jump%20to%20next%20occurrence%20of%20character%20x"
+  },
+  {
+    "name": "Jump to before next occurrence of character x",
+    "keywords": [
+      "cursor",
+      "jump",
+      "before",
+      "next",
+      "occurrence",
+      "character",
+      "navigation"
+    ],
+    "command": "tx",
+    "description": "Moves the cursor to the position before the next occurrence of character 'x' on the current line.",
+    "rtorr_description": "tx%20%2D%20jump%20to%20before%20next%20occurrence%20of%20character%20x"
+  },
+  {
+    "name": "Jump to the previous occurrence of character x",
+    "keywords": [
+      "cursor",
+      "jump",
+      "previous",
+      "occurrence",
+      "character",
+      "navigation"
+    ],
+    "command": "Fx",
+    "description": "Moves the cursor to the previous occurrence of character 'x' on the current line.",
+    "rtorr_description": "Fx%20%2D%20jump%20to%20the%20previous%20occurrence%20of%20character%20x"
+  },
+  {
+    "name": "Jump to after previous occurrence of character x",
+    "keywords": [
+      "cursor",
+      "jump",
+      "after",
+      "previous",
+      "occurrence",
+      "character",
+      "navigation"
+    ],
+    "command": "Tx",
+    "description": "Moves the cursor to the position after the previous occurrence of character 'x' on the current line.",
+    "rtorr_description": "Tx%20%2D%20jump%20to%20after%20previous%20occurrence%20of%20character%20x"
+  },
+  {
+    "name": "Repeat previous f, t, F or T movement",
+    "keywords": [
+      "cursor",
+      "repeat",
+      "previous",
+      "movement",
+      "f",
+      "t",
+      "F",
+      "T",
+      "navigation"
+    ],
+    "command": ";",
+    "description": "Repeats the previous f, t, F, or T cursor movement command in the same direction.",
+    "rtorr_description": "%3B%20%2D%20repeat%20previous%20f%2C%20t%2C%20F%20or%20T%20movement"
+  },
+  {
+    "name": "Repeat previous f, t, F or T movement, backwards",
+    "keywords": [
+      "cursor",
+      "repeat",
+      "previous",
+      "movement",
+      "backwards",
+      "f",
+      "t",
+      "F",
+      "T",
+      "navigation"
+    ],
+    "command": ",",
+    "description": "Repeats the previous f, t, F, or T cursor movement command in the opposite direction.",
+    "rtorr_description": "%2C%20%2D%20repeat%20previous%20f%2C%20t%2C%20F%20or%20T%20movement%2C%20backwards"
+  },
+  {
+    "name": "Jump to next paragraph (or function/block, when editing code)",
+    "keywords": [
+      "cursor",
+      "jump",
+      "next",
+      "paragraph",
+      "function",
+      "block",
+      "code",
+      "navigation"
+    ],
+    "command": "}",
+    "description": "Moves the cursor to the beginning of the next paragraph. When editing code, it moves to the next function or block.",
+    "rtorr_description": "%7D%20%2D%20jump%20to%20next%20paragraph%20%28or%20function/block%2C%20when%20editing%20code%29"
+  },
+  {
+    "name": "Jump to previous paragraph (or function/block, when editing code)",
+    "keywords": [
+      "cursor",
+      "jump",
+      "previous",
+      "paragraph",
+      "function",
+      "block",
+      "code",
+      "navigation"
+    ],
+    "command": "{",
+    "description": "Moves the cursor to the beginning of the previous paragraph. When editing code, it moves to the previous function or block.",
+    "rtorr_description": "%7B%20%2D%20jump%20to%20previous%20paragraph%20%28or%20function/block%2C%20when%20editing%20code%29"
+  },
+  {
+    "name": "Center cursor on screen",
+    "keywords": [
+      "cursor",
+      "center",
+      "screen",
+      "navigation"
+    ],
+    "command": "zz",
+    "description": "Centers the cursor vertically on the screen.",
+    "rtorr_description": "zz%20%2D%20center%20cursor%20on%20screen"
+  },
+  {
+    "name": "Position cursor on top of the screen",
+    "keywords": [
+      "cursor",
+      "position",
+      "top",
+      "screen",
+      "navigation"
+    ],
+    "command": "zt",
+    "description": "Positions the cursor at the top of the screen.",
+    "rtorr_description": "zt%20%2D%20position%20cursor%20on%20top%20of%20the%20screen"
+  },
+  {
+    "name": "Position cursor on bottom of the screen",
+    "keywords": [
+      "cursor",
+      "position",
+      "bottom",
+      "screen",
+      "navigation"
+    ],
+    "command": "zb",
+    "description": "Positions the cursor at the bottom of the screen.",
+    "rtorr_description": "zb%20%2D%20position%20cursor%20on%20bottom%20of%20the%20screen"
+  },
+  {
+    "name": "Move screen down one line (without moving cursor)",
+    "keywords": [
+      "screen",
+      "move",
+      "down",
+      "line",
+      "cursor",
+      "navigation"
+    ],
+    "command": "Ctrl + e",
+    "description": "Scrolls the screen down one line without moving the cursor.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20e%20%2D%20move%20screen%20down%20one%20line%20%28without%20moving%20cursor%29"
+  },
+  {
+    "name": "Move screen up one line (without moving cursor)",
+    "keywords": [
+      "screen",
+      "move",
+      "up",
+      "line",
+      "cursor",
+      "navigation"
+    ],
+    "command": "Ctrl + y",
+    "description": "Scrolls the screen up one line without moving the cursor.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20y%20%2D%20move%20screen%20up%20one%20line%20%28without%20moving%20cursor%29"
+  },
+  {
+    "name": "Move screen up one page (cursor to last line)",
+    "keywords": [
+      "screen",
+      "move",
+      "up",
+      "page",
+      "cursor",
+      "last",
+      "line",
+      "navigation"
+    ],
+    "command": "Ctrl + b",
+    "description": "Scrolls the screen up one page and moves the cursor to the last line of the new page.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20b%20%2D%20move%20screen%20up%20one%20page%20%28cursor%20to%20last%20line%29"
+  },
+  {
+    "name": "Move screen down one page (cursor to first line)",
+    "keywords": [
+      "screen",
+      "move",
+      "down",
+      "page",
+      "cursor",
+      "first",
+      "line",
+      "navigation"
+    ],
+    "command": "Ctrl + f",
+    "description": "Scrolls the screen down one page and moves the cursor to the first line of the new page.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20f%20%2D%20move%20screen%20down%20one%20page%20%28cursor%20to%20first%20line%29"
+  },
+  {
+    "name": "Move cursor and screen down 1/2 page",
+    "keywords": [
+      "cursor",
+      "screen",
+      "move",
+      "down",
+      "half",
+      "page",
+      "navigation"
+    ],
+    "command": "Ctrl + d",
+    "description": "Scrolls the screen down half a page and moves the cursor accordingly.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20d%20%2D%20move%20cursor%20and%20screen%20down%201/2%20page"
+  },
+  {
+    "name": "Move cursor and screen up 1/2 page",
+    "keywords": [
+      "cursor",
+      "screen",
+      "move",
+      "up",
+      "half",
+      "page",
+      "navigation"
+    ],
+    "command": "Ctrl + u",
+    "description": "Scrolls the screen up half a page and moves the cursor accordingly.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20u%20%2D%20move%20cursor%20and%20screen%20up%201/2%20page"
+  },
+  {
+    "name": "Insert before the cursor",
+    "keywords": [
+      "insert",
+      "text",
+      "before",
+      "cursor",
+      "editing",
+      "mode"
+    ],
+    "command": "i",
+    "description": "Enters insert mode and starts inserting text before the cursor position.",
+    "rtorr_description": "i%20%2D%20insert%20before%20the%20cursor"
+  },
+  {
+    "name": "Insert at the beginning of the line",
+    "keywords": [
+      "insert",
+      "text",
+      "beginning",
+      "line",
+      "editing",
+      "mode"
+    ],
+    "command": "I",
+    "description": "Enters insert mode and starts inserting text at the beginning of the current line.",
+    "rtorr_description": "I%20%2D%20insert%20at%20the%20beginning%20of%20the%20line"
+  },
+  {
+    "name": "Insert (append) after the cursor",
+    "keywords": [
+      "insert",
+      "append",
+      "text",
+      "after",
+      "cursor",
+      "editing",
+      "mode"
+    ],
+    "command": "a",
+    "description": "Enters insert mode and starts inserting text after the cursor position.",
+    "rtorr_description": "a%20%2D%20insert%20%28append%29%20after%20the%20cursor"
+  },
+  {
+    "name": "Insert (append) at the end of the line",
+    "keywords": [
+      "insert",
+      "append",
+      "text",
+      "end",
+      "line",
+      "editing",
+      "mode"
+    ],
+    "command": "A",
+    "description": "Enters insert mode and starts inserting text at the end of the current line.",
+    "rtorr_description": "A%20%2D%20insert%20%28append%29%20at%20the%20end%20of%20the%20line"
+  },
+  {
+    "name": "Append (open) a new line below the current line",
+    "keywords": [
+      "append",
+      "open",
+      "new",
+      "line",
+      "below",
+      "current",
+      "editing",
+      "mode"
+    ],
+    "command": "o",
+    "description": "Opens a new line below the current line and enters insert mode.",
+    "rtorr_description": "o%20%2D%20append%20%28open%29%20a%20new%20line%20below%20the%20current%20line"
+  },
+  {
+    "name": "Append (open) a new line above the current line",
+    "keywords": [
+      "append",
+      "open",
+      "new",
+      "line",
+      "above",
+      "current",
+      "editing",
+      "mode"
+    ],
+    "command": "O",
+    "description": "Opens a new line above the current line and enters insert mode.",
+    "rtorr_description": "O%20%2D%20append%20%28open%29%20a%20new%20line%20above%20the%20current%20line"
+  },
+  {
+    "name": "Insert (append) at the end of the word",
+    "keywords": [
+      "insert",
+      "append",
+      "text",
+      "end",
+      "word",
+      "editing",
+      "mode"
+    ],
+    "command": "ea",
+    "description": "Moves the cursor to the end of the current word and enters insert mode.",
+    "rtorr_description": "ea%20%2D%20insert%20%28append%29%20at%20the%20end%20of%20the%20word"
+  },
+  {
+    "name": "Delete the character before the cursor during insert mode",
+    "keywords": [
+      "delete",
+      "character",
+      "before",
+      "cursor",
+      "insert",
+      "mode",
+      "editing"
+    ],
+    "command": "Ctrl + h",
+    "description": "Deletes the character before the cursor while in insert mode.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20h%20%2D%20delete%20the%20character%20before%20the%20cursor%20during%20insert%20mode"
+  },
+  {
+    "name": "Delete word before the cursor during insert mode",
+    "keywords": [
+      "delete",
+      "word",
+      "before",
+      "cursor",
+      "insert",
+      "mode",
+      "editing"
+    ],
+    "command": "Ctrl + w",
+    "description": "Deletes the word before the cursor while in insert mode.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20w%20%2D%20delete%20word%20before%20the%20cursor%20during%20insert%20mode"
+  },
+  {
+    "name": "Add a line break at the cursor position during insert mode",
+    "keywords": [
+      "line break",
+      "cursor",
+      "insert",
+      "mode",
+      "editing"
+    ],
+    "command": "Ctrl + j",
+    "description": "Inserts a line break at the current cursor position while in insert mode.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20j%20%2D%20add%20a%20line%20break%20at%20the%20cursor%20position%20during%20insert%20mode"
+  },
+  {
+    "name": "Indent (move right) line one shiftwidth during insert mode",
+    "keywords": [
+      "indent",
+      "move",
+      "right",
+      "shiftwidth",
+      "insert",
+      "mode",
+      "editing"
+    ],
+    "command": "Ctrl + t",
+    "description": "Indents the current line one shiftwidth to the right while in insert mode.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20t%20%2D%20indent%20%28move%20right%29%20line%20one%20shiftwidth%20during%20insert%20mode"
+  },
+  {
+    "name": "De-indent (move left) line one shiftwidth during insert mode",
+    "keywords": [
+      "de-indent",
+      "move",
+      "left",
+      "shiftwidth",
+      "insert",
+      "mode",
+      "editing"
+    ],
+    "command": "Ctrl + d",
+    "description": "De-indents the current line one shiftwidth to the left while in insert mode.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20d%20%2D%20de-indent%20%28move%20left%29%20line%20one%20shiftwidth%20during%20insert%20mode"
+  },
+  {
+    "name": "Insert (auto-complete) next match before the cursor during insert mode",
+    "keywords": [
+      "insert",
+      "auto-complete",
+      "next",
+      "match",
+      "before",
+      "cursor",
+      "insert",
+      "mode",
+      "editing"
+    ],
+    "command": "Ctrl + n",
+    "description": "Inserts the next matching completion before the cursor while in insert mode.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20n%20%2D%20insert%20%28auto-complete%29%20next%20match%20before%20the%20cursor%20during%20insert%20mode"
+  },
+  {
+    "name": "Insert (auto-complete) previous match before the cursor during insert mode",
+    "keywords": [
+      "insert",
+      "auto-complete",
+      "previous",
+      "match",
+      "before",
+      "cursor",
+      "insert",
+      "mode",
+      "editing"
+    ],
+    "command": "Ctrl + p",
+    "description": "Inserts the previous matching completion before the cursor while in insert mode.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20p%20%2D%20insert%20%28auto-complete%29%20previous%20match%20before%20the%20cursor%20during%20insert%20mode"
+  },
+  {
+    "name": "Insert the contents of register x",
+    "keywords": [
+      "insert",
+      "register",
+      "contents",
+      "paste",
+      "editing"
+    ],
+    "command": "Ctrl + rx",
+    "description": "Inserts the contents of register 'x' at the cursor position.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20rx%20%2D%20insert%20the%20contents%20of%20register%20x"
+  },
+  {
+    "name": "Temporarily enter normal mode to issue one normal-mode command x.",
+    "keywords": [
+      "normal",
+      "mode",
+      "command",
+      "temporary",
+      "insert",
+      "editing"
+    ],
+    "command": "Ctrl + ox",
+    "description": "Temporarily switches to normal mode from insert mode to execute a single normal mode command 'x'. After executing the command, it returns to insert mode.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20ox%20%2D%20Temporarily%20enter%20normal%20mode%20to%20issue%20one%20normal-mode%20command%20x."
+  },
+  {
+    "name": "Exit insert mode",
+    "keywords": [
+      "exit",
+      "insert",
+      "mode",
+      "normal",
+      "mode",
+      "editing"
+    ],
+    "command": "Esc or Ctrl + c",
+    "description": "Exits insert mode and returns to normal mode.",
+    "rtorr_description": "Esc%20%20or%20%20Ctrl%20%20%2B%20%20c%20%2D%20exit%20insert%20mode"
+  },
+  {
+    "name": "Replace a single character",
+    "keywords": [
+      "replace",
+      "character",
+      "editing"
+    ],
+    "command": "r",
+    "description": "Replaces the character under the cursor with the next character typed.",
+    "rtorr_description": "r%20%2D%20replace%20a%20single%20character."
+  },
+  {
+    "name": "Replace more than one character, until ESC is pressed",
+    "keywords": [
+      "replace",
+      "multiple",
+      "characters",
+      "editing"
+    ],
+    "command": "R",
+    "description": "Enters replace mode, allowing you to replace multiple characters until the ESC key is pressed.",
+    "rtorr_description": "R%20%2D%20replace%20more%20than%20one%20character%2C%20until%20%20ESC%20%20is%20pressed."
+  },
+  {
+    "name": "Join line below to the current one with one space in between",
+    "keywords": [
+      "join",
+      "line",
+      "below",
+      "current",
+      "space",
+      "editing"
+    ],
+    "command": "J",
+    "description": "Joins the line below the current line to the end of the current line, adding a single space in between.",
+    "rtorr_description": "J%20%2D%20join%20line%20below%20to%20the%20current%20one%20with%20one%20space%20in%20between"
+  },
+  {
+    "name": "Join line below to the current one without space in between",
+    "keywords": [
+      "join",
+      "line",
+      "below",
+      "current",
+      "no space",
+      "editing"
+    ],
+    "command": "gJ",
+    "description": "Joins the line below the current line to the end of the current line without adding any space.",
+    "rtorr_description": "gJ%20%2D%20join%20line%20below%20to%20the%20current%20one%20without%20space%20in%20between"
+  },
+  {
+    "name": "Reflow paragraph",
+    "keywords": [
+      "reflow",
+      "paragraph",
+      "formatting",
+      "text",
+      "editing"
+    ],
+    "command": "gwip",
+    "description": "Reflows the current paragraph, adjusting line breaks to fit within the current window width.",
+    "rtorr_description": "gwip%20%2D%20reflow%20paragraph"
+  },
+  {
+    "name": "Switch case up to motion",
+    "keywords": [
+      "switch",
+      "case",
+      "uppercase",
+      "lowercase",
+      "motion",
+      "editing"
+    ],
+    "command": "g~",
+    "description": "Switches the case of characters (uppercase to lowercase or vice versa) from the cursor position to the end of the specified motion.",
+    "rtorr_description": "g~%20%2D%20switch%20case%20up%20to%20motion"
+  },
+  {
+    "name": "Change to lowercase up to motion",
+    "keywords": [
+      "change",
+      "lowercase",
+      "motion",
+      "editing"
+    ],
+    "command": "gu",
+    "description": "Changes the characters from the cursor position to the end of the specified motion to lowercase.",
+    "rtorr_description": "gu%20%2D%20change%20to%20lowercase%20up%20to%20motion"
+  },
+  {
+    "name": "Change to Uppercase",
+    "keywords": [
+      "uppercase",
+      "gU",
+      "change case"
+    ],
+    "command": "gU",
+    "description": "Changes text to uppercase up to the specified motion.",
+    "rtorr_description": "change%20to%20uppercase%20up%20to%20motion"
+  },
+  {
+    "name": "Change (Replace) Entire Line",
+    "keywords": [
+      "replace line",
+      "change line",
+      "cc"
+    ],
+    "command": "cc",
+    "description": "Replaces the content of the entire current line.",
+    "rtorr_description": "change%20%28replace%29%20entire%20line"
+  },
+  {
+    "name": "Change (Replace) to End of Line",
+    "keywords": [
+      "replace to end of line",
+      "change to end of line",
+      "c$",
+      "C"
+    ],
+    "command": "c$ or C",
+    "description": "Replaces text from the cursor position to the end of the current line.",
+    "rtorr_description": "change%20%28replace%29%20to%20the%20end%20of%20the%20line"
+  },
+  {
+    "name": "Change (Replace) Entire Word",
+    "keywords": [
+      "replace word",
+      "change word",
+      "ciw"
+    ],
+    "command": "ciw",
+    "description": "Replaces the entire word under the cursor.",
+    "rtorr_description": "change%20%28replace%29%20entire%20word"
+  },
+  {
+    "name": "Change (Replace) to End of Word",
+    "keywords": [
+      "replace to end of word",
+      "change to end of word",
+      "cw",
+      "ce"
+    ],
+    "command": "cw or ce",
+    "description": "Replaces text from the cursor position to the end of the current word.",
+    "rtorr_description": "change%20%28replace%29%20to%20the%20end%20of%20the%20word"
+  },
+  {
+    "name": "Delete Character and Substitute Text",
+    "keywords": [
+      "delete and substitute",
+      "s",
+      "cl"
+    ],
+    "command": "s",
+    "description": "Deletes the character under the cursor and enters insert mode to allow substitution of text (same as cl).",
+    "rtorr_description": "delete%20character%20and%20substitute%20text%20%28same%20as%20cl%29"
+  },
+  {
+    "name": "Delete Line and Substitute Text",
+    "keywords": [
+      "delete line and substitute",
+      "S",
+      "cc"
+    ],
+    "command": "S",
+    "description": "Deletes the entire line and enters insert mode to allow substitution of text (same as cc).",
+    "rtorr_description": "delete%20line%20and%20substitute%20text%20%28same%20as%20cc%29"
+  },
+  {
+    "name": "Transpose Two Letters",
+    "keywords": [
+      "transpose",
+      "switch letters",
+      "xp"
+    ],
+    "command": "xp",
+    "description": "Transposes the character under the cursor with the character to its right (effectively deleting and pasting).",
+    "rtorr_description": "transpose%20two%20letters%20%28delete%20and%20paste%29"
+  },
+  {
+    "name": "Undo",
+    "keywords": [
+      "undo change",
+      "reverse change",
+      "u"
+    ],
+    "command": "u",
+    "description": "Reverses the last editing action.",
+    "rtorr_description": "undo"
+  },
+  {
+    "name": "Restore (Undo) Last Changed Line",
+    "keywords": [
+      "restore line",
+      "undo line change",
+      "U"
+    ],
+    "command": "U",
+    "description": "Restores the last changed line to its state before any modifications were made.",
+    "rtorr_description": "restore%20%28undo%29%20last%20changed%20line"
+  },
+  {
+    "name": "Redo",
+    "keywords": [
+      "ctrl+r",
+      "redo",
+      "repeat"
+    ],
+    "command": "Ctrl + r",
+    "description": "Redoes a previously undone change.",
+    "rtorr_description": "redo"
+  },
+  {
+    "name": "Repeat Last Command",
+    "keywords": [
+      "repeat",
+      "dot command",
+      "."
+    ],
+    "command": ".",
+    "description": "Repeats the last executed command.",
+    "rtorr_description": "repeat%20last%20command"
+  },
+  {
+    "name": "Start Visual Mode",
+    "keywords": [
+      "visual mode",
+      "select text",
+      "mark lines",
+      "v"
+    ],
+    "command": "v",
+    "description": "Starts visual mode, allowing you to select text by moving the cursor. Once text is selected, you can perform various commands on it (like yanking/copying).",
+    "rtorr_description": "start%20visual%20mode%2C%20mark%20lines%2C%20then%20do%20a%20command%20%28like%20y-yank%29"
+  },
+  {
+    "name": "Start Linewise Visual Mode",
+    "keywords": [
+      "linewise visual mode",
+      "select lines",
+      "V"
+    ],
+    "command": "V",
+    "description": "Starts linewise visual mode, which allows you to select entire lines by moving the cursor.",
+    "rtorr_description": "start%20linewise%20visual%20mode"
+  },
+  {
+    "name": "Move to Other End of Marked Area",
+    "keywords": [
+      "visual mode",
+      "switch selection ends",
+      "o"
+    ],
+    "command": "o",
+    "description": "While in visual mode, this command moves the cursor to the opposite end of the currently selected area.",
+    "rtorr_description": "move%20to%20other%20end%20of%20marked%20area"
+  },
+  {
+    "name": "Start Visual Block Mode",
+    "keywords": [
+      "visual block mode",
+      "select block",
+      "Ctrl+v"
+    ],
+    "command": "Ctrl + v",
+    "description": "Starts visual block mode, allowing you to select a rectangular block of text.",
+    "rtorr_description": "start%20visual%20block%20mode"
+  },
+  {
+    "name": "Move to Other Corner of Block",
+    "keywords": [
+      "visual block mode",
+      "move block corner",
+      "O"
+    ],
+    "command": "O",
+    "description": "While in visual block mode, this command moves the cursor to the opposite corner of the selected block.",
+    "rtorr_description": "move%20to%20other%20corner%20of%20block"
+  },
+  {
+    "name": "Mark a Word",
+    "keywords": [
+      "visual mode",
+      "select word",
+      "aw"
+    ],
+    "command": "aw",
+    "description": "In visual mode, selects the current word.",
+    "rtorr_description": "mark%20a%20word"
+  },
+  {
+    "name": "Mark a Block with Parentheses",
+    "keywords": [
+      "visual mode",
+      "select block",
+      "parentheses",
+      "ab"
+    ],
+    "command": "ab",
+    "description": "In visual mode, selects a block of text enclosed by parentheses ().",
+    "rtorr_description": "a%20block%20with%20%28%29"
+  },
+  {
+    "name": "Mark a Block with Curly Braces",
+    "keywords": [
+      "visual mode",
+      "select block",
+      "curly braces",
+      "aB"
+    ],
+    "command": "aB",
+    "description": "In visual mode, selects a block of text enclosed by curly braces {}.",
+    "rtorr_description": "a%20block%20with%20%7B%7D"
+  },
+  {
+    "name": "Mark a Block with Angle Brackets",
+    "keywords": [
+      "visual mode",
+      "select block",
+      "angle brackets",
+      "tags",
+      "at"
+    ],
+    "command": "at",
+    "description": "In visual mode, selects a block of text enclosed by angle brackets <> (often used for tags).",
+    "rtorr_description": "a%20block%20with%20%3C%3E%20tags"
+  },
+  {
+    "name": "Select Inner Block with Parentheses",
+    "keywords": [
+      "visual mode",
+      "select inner block",
+      "parentheses",
+      "ib"
+    ],
+    "command": "ib",
+    "description": "In visual mode, selects the text within the nearest enclosing parentheses ().",
+    "rtorr_description": "inner%20block%20with%20%28%29"
+  },
+  {
+    "name": "Select Inner Block with Curly Braces",
+    "keywords": [
+      "visual mode",
+      "select inner block",
+      "curly braces",
+      "iB"
+    ], 
+    "command": "iB",
+    "description": "In visual mode, selects the text within the nearest enclosing curly braces {}.",
+    "rtorr_description": "inner%20block%20with%20%7B%7D"
+  },
+  {
+    "name": "Select Inner Block with Angle Brackets",
+    "keywords": [
+      "visual mode",
+      "select inner block",
+      "angle brackets",
+      "tags",
+      "it"
+    ],
+    "command": "it",
+    "description": "In visual mode, selects the text within the nearest enclosing angle brackets <> (often used for tags).",
+    "rtorr_description": "inner%20block%20with%20%3C%3E%20tags"
+  },
+  {
+    "name": "Exit Visual Mode",
+    "keywords": [
+      "visual mode",
+      "exit",
+      "Esc",
+      "Ctrl+c"
+    ],
+    "command": "Esc or Ctrl + c",
+    "description": "Exits visual mode.",
+    "rtorr_description": "exit%20visual%20mode"
+  },
+  {
+    "name": "Shift Text Right",
+    "keywords": [
+      "visual mode",
+      "indent",
+      ">"
+    ],
+    "command": ">",
+    "description": "In visual mode, shifts the selected text one indentation level to the right.",
+    "rtorr_description": "shift%20text%20right"
+  },
+  {
+    "name": "Shift Text Left",
+    "keywords": [
+      "visual mode",
+      "unindent",
+      "<"
+    ],
+    "command": "<",
+    "description": "In visual mode, shifts the selected text one indentation level to the left.",
+    "rtorr_description": "shift%20text%20left"
+  },
+  {
+    "name": "Yank (Copy) Marked Text",
+    "keywords": [
+      "visual mode",
+      "copy",
+      "yank",
+      "y"
+    ],
+    "command": "y",
+    "description": "In visual mode, copies (yanks) the selected text into the clipboard.",
+    "rtorr_description": "yank%20%28copy%29%20marked%20text"
+  },
+  {
+    "name": "Delete Marked Text",
+    "keywords": [
+      "visual mode",
+      "delete",
+      "d"
+    ],
+    "command": "d",
+    "description": "In visual mode, deletes the selected text.",
+    "rtorr_description": "delete%20marked%20text"
+  },
+  {
+    "name": "Switch Case",
+    "keywords": [
+      "visual mode",
+      "toggle case",
+      "~"
+    ],
+    "command": "~",
+    "description": "In visual mode, switches the case (uppercase/lowercase) of the selected text.",
+    "rtorr_description": "switch%20case"
+  },
+  {
+    "name": "Change Marked Text to Lowercase",
+    "keywords": [
+      "visual mode",
+      "lowercase",
+      "u"
+    ],
+    "command": "u",
+    "description": "In visual mode, changes the selected text to lowercase.",
+    "rtorr_description": "change%20marked%20text%20to%20lowercase"
+  },
+  {
+    "name": "Change Marked Text to Uppercase",
+    "keywords": [
+      "visual mode",
+      "uppercase",
+      "U"
+    ],
+    "command": "U",
+    "description": "In visual mode, changes the selected text to uppercase.",
+    "rtorr_description": "change%20marked%20text%20to%20uppercase"
+  },
+  {
+    "name": "Show Registers Content",
+    "keywords": [
+      "registers",
+      "view registers",
+      ":reg",
+      ":registers"
+    ],
+    "command": ":reg[isters]",
+    "description": "Displays the contents of all registers.",
+    "rtorr_description": "%3Areg%5Bisters%5D%20%2D%20show%20registers%20content"
+  },
+  {
+    "name": "Yank into Register x",
+    "keywords": [
+      "registers",
+      "yank",
+      "copy to register",
+      "\"xy"
+    ],
+    "command": "\"xy",
+    "description": "Copies (yanks) the selected text into the specified register x.",
+    "rtorr_description": "%22xy%20%2D%20yank%20into%20register%20x"
+  },
+  {
+    "name": "Paste Contents of Register x",
+    "keywords": [
+      "registers",
+      "paste",
+      "paste from register",
+      "\"xp"
+    ],
+    "command": "\"xp",
+    "description": "Pastes the contents of the specified register x.",
+    "rtorr_description": "%22xp%20%2D%20paste%20contents%20of%20register%20x"
+  },
+  {
+    "name": "Yank into System Clipboard Register",
+    "keywords": [
+      "clipboard",
+      "copy",
+      "yank",
+      "system clipboard",
+      "\"+y"
+    ],
+    "command": "\"+y",
+    "description": "Copies (yanks) the selected text into the system clipboard.",
+    "rtorr_description": "%22%2By%20%2D%20yank%20into%20the%20system%20clipboard%20register"
+  },
+  {
+    "name": "Paste from System Clipboard Register",
+    "keywords": [
+      "clipboard",
+      "paste",
+      "system clipboard",
+      "\"+p"
+    ],
+    "command": "\"+p",
+    "description": "Pastes the contents of the system clipboard.",
+    "rtorr_description": "%22%2Bp%20%2D%20paste%20from%20the%20system%20clipboard%20register"
+  },
+  {
+    "name": "List of Marks",
+    "keywords": [
+      "marks",
+      "view marks",
+      ":marks"
+    ],
+    "command": ":marks",
+    "description": "Displays a list of all saved marks.",
+    "rtorr_description": "%3Amarks%20%2D%20list%20of%20marks"
+  },
+  {
+    "name": "Set Current Position for Mark A",
+    "keywords": [
+      "marks",
+      "set mark",
+      "ma"
+    ],
+    "command": "ma",
+    "description": "Sets the current cursor position as mark A. You can use any letter for the mark name.",
+    "rtorr_description": "ma%20%2D%20set%20current%20position%20for%20mark%20A"
+  },
+  {
+    "name": "Jump to Position of Mark A",
+    "keywords": [
+      "marks",
+      "jump to mark",
+      "`a"
+    ],
+    "command": "`a",
+    "description": "Moves the cursor to the position marked as A.",
+    "rtorr_description": "%60a%20%2D%20jump%20to%20position%20of%20mark%20A"
+  },
+  {
+    "name": "Yank Text to Position of Mark A",
+    "keywords": [
+      "marks",
+      "yank",
+      "copy to mark",
+      "y`a"
+    ],
+    "command": "y`a",
+    "description": "Copies (yanks) the selected text and places it at the position marked as A.",
+    "rtorr_description": "y%60a%20%2D%20yank%20text%20to%20position%20of%20mark%20A"
+  },
+  {
+    "name": "Go to Previous Exit Position",
+    "keywords": [
+      "position",
+      "previous exit",
+      "`0"
+    ],
+    "command": "`0",
+    "description": "Moves the cursor to the position where Vim was last exited.",
+    "rtorr_description": "%600%20%2D%20go%20to%20the%20position%20where%20Vim%20was%20previously%20exited"
+  },
+  {
+    "name": "Go to Last Edit Position",
+    "keywords": [
+      "position",
+      "last edit",
+      "'\""
+    ],
+    "command": "'\"",
+    "description": "Moves the cursor to the position when you last edited this file.",
+    "rtorr_description": "%27%22%20%2D%20go%20to%20the%20position%20when%20last%20editing%20this%20file"
+  },
+  {
+    "name": "Go to Last Change Position",
+    "keywords": [
+      "position",
+      "last change",
+      "`.`"
+    ],
+    "command": "`.`",
+    "description": "Moves the cursor to the position of the last change in this file.",
+    "rtorr_description": "%60.%20%2D%20go%20to%20the%20position%20of%20the%20last%20change%20in%20this%20file"
+  },
+  {
+    "name": "Go to Position Before Last Jump",
+    "keywords": [
+      "position",
+      "last jump",
+      "``"
+    ],
+    "command": "``",
+    "description": "Moves the cursor to the position before the last jump.",
+    "rtorr_description": "%60%60%20%2D%20go%20to%20the%20position%20before%20the%20last%20jump"
+  },
+  {
+    "name": "List of Jumps",
+    "keywords": [
+      "jumps",
+      "view jumps",
+      ":ju",
+      ":jumps"
+    ],
+    "command": ":ju[mps]",
+    "description": "Displays a list of all recent jumps.",
+    "rtorr_description": "%3Aju%5Bmps%5D%20%2D%20list%20of%20jumps"
+  },
+  {
+    "name": "Go to Newer Position in Jump List",
+    "keywords": [
+      "jumps",
+      "next jump",
+      "Ctrl+i"
+    ],
+    "command": "Ctrl + i",
+    "description": "Moves the cursor to the next newer position in the jump list.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20i%20%2D%20go%20to%20newer%20position%20in%20jump%20list"
+  },
+  {
+    "name": "Go to Older Position in Jump List",
+    "keywords": [
+      "jumps",
+      "previous jump",
+      "Ctrl+o"
+    ],
+    "command": "Ctrl + o",
+    "description": "Moves the cursor to the next older position in the jump list.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20o%20%2D%20go%20to%20older%20position%20in%20jump%20list"
+  },
+  {
+    "name": "List of Changes",
+    "keywords": [
+      "changes",
+      "view changes",
+      ":changes"
+    ],
+    "command": ":changes",
+    "description": "Displays a list of all recent changes made in the buffer.",
+    "rtorr_description": "%3Achanges%20%2D%20list%20of%20changes"
+  },
+  {
+    "name": "Go to Newer Position in Change List",
+    "keywords": [
+      "changes",
+      "next change",
+      "g,"
+    ],
+    "command": "g,",
+    "description": "Moves the cursor to the next newer position in the change list.",
+    "rtorr_description": "g%2C%20%2D%20go%20to%20newer%20position%20in%20change%20list"
+  },
+  {
+    "name": "Go to Older Position in Change List",
+    "keywords": [
+      "changes",
+      "previous change",
+      "g;"
+    ],
+    "command": "g;",
+    "description": "Moves the cursor to the next older position in the change list.",
+    "rtorr_description": "g%3B%20%2D%20go%20to%20older%20position%20in%20change%20list"
+  },
+  {
+    "name": "Jump to Tag Under Cursor",
+    "keywords": [
+      "tags",
+      "jump to tag",
+      "Ctrl+]"
+    ],
+    "command": "Ctrl + ]",
+    "description": "Jumps to the definition of the tag under the cursor.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20%5D%20%2D%20jump%20to%20the%20tag%20under%20cursor"
+  },
+  {
+    "name": "Record Macro a",
+    "keywords": [
+      "macros",
+      "record macro",
+      "qa"
+    ],
+    "command": "qa",
+    "description": "Starts recording a macro and saves it in register 'a'.",
+    "rtorr_description": "qa%20%2D%20record%20macro%20a"
+  },
+  {
+    "name": "Stop Recording Macro",
+    "keywords": [
+      "macros",
+      "stop recording",
+      "q"
+    ],
+    "command": "q",
+    "description": "Stops recording the current macro.",
+    "rtorr_description": "q%20%2D%20stop%20recording%20macro"
+  },
+  {
+    "name": "Run Macro a",
+    "keywords": [
+      "macros",
+      "run macro",
+      "@a"
+    ],
+    "command": "@a",
+    "description": "Executes the macro stored in register 'a'.",
+    "rtorr_description": "%40a%20%2D%20run%20macro%20a"
+  },
+  {
+    "name": "Rerun Last Macro",
+    "keywords": [
+      "macros",
+      "rerun",
+      "repeat macro",
+      "@@"
+    ],
+    "command": "@@",
+    "description": "Repeats the last executed macro.",
+    "rtorr_description": "%40%40%20%2D%20rerun%20last%20run%20macro"
+  },
+  {
+    "name": "Yank (Copy) a Line",
+    "keywords": [
+      "copy",
+      "yank",
+      "yy"
+    ],
+    "command": "yy",
+    "description": "Copies the current line into the default register (\").",
+    "rtorr_description": "yy%20%2D%20yank%20%28copy%29%20a%20line"
+  },
+  {
+    "name": "Yank (Copy) 2 Lines",
+    "keywords": [
+      "copy",
+      "yank",
+      "multiple lines",
+      "2yy"
+    ],
+    "command": "2yy",
+    "description": "Copies the current line and the next line into the default register (\").",
+    "rtorr_description": "2yy%20%2D%20yank%20%28copy%29%202%20lines"
+  },
+  {
+    "name": "Yank (Copy) Word",
+    "keywords": [
+      "copy",
+      "yank",
+      "word",
+      "yw"
+    ],
+    "command": "yw",
+    "description": "Copies the characters of the word from the cursor position to the start of the next word into the default register (\").",
+    "rtorr_description": "yw%20%2D%20yank%20%28copy%29%20the%20characters%20of%20the%20word%20from%20the%20cursor%20position%20to%20the%20start%20of%20the%20next%20word"
+  },
+  {
+    "name": "Yank (Copy) Word Under Cursor",
+    "keywords": [
+      "copy",
+      "yank",
+      "word under cursor",
+      "yiw"
+    ],
+    "command": "yiw",
+    "description": "Copies the word under the cursor into the default register (\").",
+    "rtorr_description": "yiw%20%2D%20yank%20%28copy%29%20word%20under%20the%20cursor"
+  },
+  {
+    "name": "Yank (Copy) Word with Space",
+    "keywords": [
+      "copy",
+      "yank",
+      "word with space",
+      "yaw"
+    ],
+    "command": "yaw",
+    "description": "Copies the word under the cursor and the space after or before it into the default register (\").",
+    "rtorr_description": "yaw%20%2D%20yank%20%28copy%29%20word%20under%20the%20cursor%20and%20the%20space%20after%20or%20before%20it"
+  },
+  {
+    "name": "Yank (Copy) to End of Line",
+    "keywords": [
+      "copy",
+      "yank",
+      "end of line",
+      "y$",
+      "Y"
+    ],
+    "command": "y$ or Y",
+    "description": "Copies the characters from the cursor position to the end of the line into the default register (\").",
+    "rtorr_description": "y%24%20%20or%20%20Y%20%2D%20yank%20%28copy%29%20to%20end%20of%20line"
+  },
+  {
+    "name": "Put (Paste) After Cursor",
+    "keywords": [
+      "paste",
+      "put",
+      "p"
+    ],
+    "command": "p",
+    "description": "Pastes the contents of the default register (\") after the cursor.",
+    "rtorr_description": "p%20%2D%20put%20%28paste%29%20the%20clipboard%20after%20cursor"
+  },
+  {
+    "name": "Put (Paste) Before Cursor",
+    "keywords": [
+      "paste",
+      "put",
+      "P"
+    ],
+    "command": "P",
+    "description": "Pastes the contents of the default register (\") before the cursor.",
+    "rtorr_description": "P%20%2D%20put%20%28paste%29%20before%20cursor"
+  },
+  {
+    "name": "Put (Paste) After Cursor and Move",
+    "keywords": [
+      "paste",
+      "put",
+      "move cursor",
+      "gp"
+    ],
+    "command": "gp",
+    "description": "Pastes the contents of the default register (\") after the cursor and leaves the cursor after the new text.",
+    "rtorr_description": "gp%20%2D%20put%20%28paste%29%20the%20clipboard%20after%20cursor%20and%20leave%20cursor%20after%20the%20new%20text"
+  },
+  {
+    "name": "Put (Paste) Before Cursor and Move",
+    "keywords": [
+      "paste",
+      "put",
+      "move cursor",
+      "gP"
+    ],
+    "command": "gP",
+    "description": "Pastes the contents of the default register (\") before the cursor and leaves the cursor after the new text.",
+    "rtorr_description": "gP%20%2D%20put%20%28paste%29%20before%20cursor%20and%20leave%20cursor%20after%20the%20new%20text"
+  },
+  {
+    "name": "Delete (Cut) a Line",
+    "keywords": [
+      "cut",
+      "delete",
+      "dd"
+    ],
+    "command": "dd",
+    "description": "Deletes the current line and places it in the default register (\").",
+    "rtorr_description": "dd%20%2D%20delete%20%28cut%29%20a%20line"
+  },
+  {
+    "name": "Delete (Cut) 2 Lines",
+    "keywords": [
+      "cut",
+      "delete",
+      "multiple lines",
+      "2dd"
+    ],
+    "command": "2dd",
+    "description": "Deletes the current line and the next line and places them in the default register (\").",
+    "rtorr_description": "2dd%20%2D%20delete%20%28cut%29%202%20lines"
+  },
+  {
+    "name": "Delete (Cut) Word",
+    "keywords": [
+      "cut",
+      "delete",
+      "word",
+      "dw"
+    ],
+    "command": "dw",
+    "description": "Deletes the characters of the word from the cursor position to the start of the next word and places them in the default register (\").",
+    "rtorr_description": "dw%20%2D%20delete%20%28cut%29%20the%20characters%20of%20the%20word%20from%20the%20cursor%20position%20to%20the%20start%20of%20the%20next%20word"
+  },
+  {
+    "name": "Delete (Cut) Word Under Cursor",
+    "keywords": [
+      "cut",
+      "delete",
+      "word under cursor",
+      "diw"
+    ],
+    "command": "diw",
+    "description": "Deletes the word under the cursor and places it in the default register (\").",
+    "rtorr_description": "diw%20%2D%20delete%20%28cut%29%20word%20under%20the%20cursor"
+  },
+  {
+    "name": "Delete (Cut) Word with Space",
+    "keywords": [
+      "cut",
+      "delete",
+      "word with space",
+      "daw"
+    ],
+    "command": "daw",
+    "description": "Deletes the word under the cursor and the space after or before it and places it in the default register (\").",
+    "rtorr_description": "daw%20%2D%20delete%20%28cut%29%20word%20under%20the%20cursor%20and%20the%20space%20after%20or%20before%20it"
+  },
+  {
+    "name": "Delete Lines From 3 to 5",
+    "keywords": [
+      "delete",
+      "multiple lines",
+      ":3,5d"
+    ],
+    "command": ":3,5d",
+    "description": "Deletes lines 3 through 5.",
+    "rtorr_description": "%3A3%2C5d%20%2D%20delete%20lines%20starting%20from%203%20to%205"
+  },
+  {
+    "name": "Delete to End of Line",
+    "keywords": [
+      "cut",
+      "delete",
+      "end of line",
+      "d$",
+      "D"
+    ],
+    "command": "d$ or D",
+    "description": "Deletes the characters from the cursor position to the end of the line and places them in the default register (\").",
+    "rtorr_description": "d%24%20%20or%20%20D%20%2D%20delete%20%28cut%29%20to%20the%20end%20of%20the%20line"
+  },
+  {
+    "name": "Delete Character",
+    "keywords": [
+      "cut",
+      "delete",
+      "character",
+      "x"
+    ],
+    "command": "x",
+    "description": "Deletes the character under the cursor and places it in the default register (\").",
+    "rtorr_description": "x%20%2D%20delete%20%28cut%29%20character"
+  },
+  {
+    "name": "Indent Line",
+    "keywords": [
+      "indent",
+      ">>"
+    ],
+    "command": ">>",
+    "description": "Indents the current line one shiftwidth to the right.",
+    "rtorr_description": "%3E%3E%20%2D%20indent%20%28move%20right%29%20line%20one%20shiftwidth"
+  },
+  {
+    "name": "De-indent Line",
+    "keywords": [
+      "de-indent",
+      "<<"
+    ],
+    "command": "<<",
+    "description": "De-indents the current line one shiftwidth to the left.",
+    "rtorr_description": "%3C%3C%20%2D%20de-indent%20%28move%20left%29%20line%20one%20shiftwidth"
+  },
+  {
+    "name": "Indent Block",
+    "keywords": [
+      "indent",
+      "block",
+      "() {}",
+      ">%"
+    ],
+    "command": ">%",
+    "description": "Indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+    "rtorr_description": "%3E%25%20%2D%20indent%20a%20block%20with%20%28%29%20or%20%7B%7D%20%28cursor%20on%20brace%29"
+  },
+  {
+    "name": "De-indent Block",
+    "keywords": [
+      "de-indent",
+      "block",
+      "() {}",
+      "<%"
+    ],
+    "command": "<%",
+    "description": "De-indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+    "rtorr_description": "%3C%25%20%2D%20de-indent%20a%20block%20with%20%28%29%20or%20%7B%7D%20%28cursor%20on%20brace%29"
+  },
+  {
+    "name": "Indent Inner Block with ()",
+    "keywords": [
+      "indent",
+      "inner block",
+      "()",
+      ">ib"
+    ],
+    "command": ">ib",
+    "description": "Indents the inner block enclosed by parentheses ().",
+    "rtorr_description": "%3Eib%20%2D%20indent%20inner%20block%20with%20%28%29"
+  },
+  {
+    "name": "Indent Block with <> Tags",
+    "keywords": [
+      "indent",
+      "block",
+      "tags",
+      "<>",
+      ">at"
+    ],
+    "command": ">at",
+    "description": "Indents a block enclosed by angle brackets <> (tags).",
+    "rtorr_description": "%3Eat%20%2D%20indent%20a%20block%20with%20%3C%3E%20tags"
+  },
+  {
+    "name": "Re-indent 3 Lines",
+    "keywords": [
+      "re-indent",
+      "multiple lines",
+      "3=="
+    ],
+    "command": "3==",
+    "description": "Re-indents the current line and the two lines below it.",
+    "rtorr_description": "3%3D%3D%20%2D%20re-indent%203%20lines"
+  },
+  {
+    "name": "Re-indent Block",
+    "keywords": [
+      "re-indent",
+      "block",
+      "() {}",
+      "=%"
+    ],
+    "command": "=%",
+    "description": "Re-indents a block enclosed by parentheses () or curly brackets {}, with the cursor positioned on the opening or closing brace.",
+    "rtorr_description": "%3D%25%20%2D%20re-indent%20a%20block%20with%20%28%29%20or%20%7B%7D%20%28cursor%20on%20brace%29"
+  },
+  {
+    "name": "Re-indent Inner Block with {}",
+    "keywords": [
+      "re-indent",
+      "inner block",
+      "{}",
+      "=iB"
+    ],
+    "command": "=iB",
+    "description": "Re-indents the inner block enclosed by curly brackets {}.",
+    "rtorr_description": "%3DiB%20%2D%20re-indent%20inner%20block%20with%20%7B%7D"
+  },
+  {
+    "name": "Re-indent Entire Buffer",
+    "keywords": [
+      "re-indent",
+      "entire file",
+      "gg=G"
+    ],
+    "command": "gg=G",
+    "description": "Re-indents the entire buffer (all lines in the current file).",
+    "rtorr_description": "gg%3DG%20%2D%20re-indent%20entire%20buffer"
+  },
+  {
+    "name": "Paste and Adjust Indent",
+    "keywords": [
+      "paste",
+      "adjust indent",
+      "]p"
+    ],
+    "command": "]p",
+    "description": "Pastes the contents of the default register (\") and adjusts the indentation to match the current line.",
+    "rtorr_description": "%5Dp%20%2D%20paste%20and%20adjust%20indent%20to%20current%20line"
+  },
+  {
+    "name": "Write File",
+    "keywords": [
+      "save",
+      "write",
+      ":w"
+    ],
+    "command": ":w",
+    "description": "Saves the current file without exiting Vim.",
+    "rtorr_description": "%3Aw%20%2D%20write%20%28save%29%20the%20file%2C%20but%20don%27t%20exit"
+  },
+  {
+    "name": "Write File with Sudo",
+    "keywords": [
+      "save",
+      "write",
+      "sudo",
+      ":w !sudo tee %"
+    ],
+    "command": ":w !sudo tee %",
+    "description": "Saves the current file using sudo (superuser privileges). This is useful when you don't have write permissions to the file.",
+    "rtorr_description": "%3Aw%20%21sudo%20tee%20%25%20%2D%20write%20out%20the%20current%20file%20using%20sudo"
+  },
+  {
+    "name": "Write and Quit",
+    "keywords": [
+      "save",
+      "write",
+      "quit",
+      "exit",
+      ":wq",
+      ":x",
+      "ZZ"
+    ],
+    "command": ":wq or :x or ZZ",
+    "description": "Saves the current file and exits Vim.",
+    "rtorr_description": "%3Awq%20%20or%20%20%3Ax%20%20or%20%20ZZ%20%2D%20write%20%28save%29%20and%20quit"
+  },
+  {
+    "name": "Quit",
+    "keywords": [
+      "quit",
+      "exit",
+      ":q"
+    ],
+    "command": ":q",
+    "description": "Exits Vim. Fails if there are unsaved changes.",
+    "rtorr_description": "%3Aq%20%2D%20quit%20%28fails%20if%20there%20are%20unsaved%20changes%29"
+  },
+  {
+    "name": "Force Quit",
+    "keywords": [
+      "quit",
+      "exit",
+      "force",
+      "discard changes",
+      ":q!",
+      "ZQ"
+    ],
+    "command": ":q! or ZQ",
+    "description": "Exits Vim and discards any unsaved changes.",
+    "rtorr_description": "%3Aq%21%20%20or%20%20ZQ%20%2D%20quit%20and%20throw%20away%20unsaved%20changes"
+  },
+  {
+    "name": "Write and Quit All Tabs",
+    "keywords": [
+      "save",
+      "write",
+      "quit",
+      "exit",
+      "all tabs",
+      ":wqa"
+    ],
+    "command": ":wqa",
+    "description": "Saves all open files and exits Vim.",
+    "rtorr_description": "%3Awqa%20%2D%20write%20%28save%29%20and%20quit%20on%20all%20tabs"
+  },
+  {
+    "name": "Search for Pattern",
+    "keywords": [
+      "search",
+      "pattern",
+      "/"
+    ],
+    "command": "/pattern",
+    "description": "Searches forward for the specified pattern.",
+    "rtorr_description": "/pattern%20%2D%20search%20for%20pattern"
+  },
+  {
+    "name": "Search Backward for Pattern",
+    "keywords": [
+      "search",
+      "backward",
+      "pattern",
+      "?"
+    ],
+    "command": "?pattern",
+    "description": "Searches backward for the specified pattern.",
+    "rtorr_description": "%3Fpattern%20%2D%20search%20backward%20for%20pattern"
+  },
+  {
+    "name": "Very Magic Search",
+    "keywords": [
+      "search",
+      "very magic",
+      "regex",
+      "\\v"
+    ],
+    "command": "\\vpattern",
+    "description": "Searches for the specified pattern using 'very magic' mode, where non-alphanumeric characters are interpreted as special regex symbols without escaping.",
+    "rtorr_description": "%5Cvpattern%20%2D%20%27very%20magic%27%20pattern%3A%20non-alphanumeric%20characters%20are%20interpreted%20as%20special%20regex%20symbols%20%28no%20escaping%20needed%29"
+  },
+  {
+    "name": "Repeat Search Forward",
+    "keywords": [
+      "search",
+      "repeat",
+      "forward",
+      "n"
+    ],
+    "command": "n",
+    "description": "Repeats the last search in the same direction (forward).",
+    "rtorr_description": "n%20%2D%20repeat%20search%20in%20same%20direction"
+  },
+  {
+    "name": "Repeat Search Backward",
+    "keywords": [
+      "search",
+      "repeat",
+      "backward",
+      "N"
+    ],
+    "command": "N",
+    "description": "Repeats the last search in the opposite direction (backward).",
+    "rtorr_description": "N%20%2D%20repeat%20search%20in%20opposite%20direction"
+  },
+  {
+    "name": "Global Replace",
+    "keywords": [
+      "replace",
+      "global",
+      "all",
+      ":%s/old/new/g"
+    ],
+    "command": ":%s/old/new/g",
+    "description": "Replaces all occurrences of 'old' with 'new' throughout the entire file.",
+    "rtorr_description": "%3A%25s/old/new/g%20%2D%20replace%20all%20old%20with%20new%20throughout%20file"
+  },
+  {
+    "name": "Global Replace with Confirmation",
+    "keywords": [
+      "replace",
+      "global",
+      "all",
+      "confirmation",
+      ":%s/old/new/gc"
+    ],
+    "command": ":%s/old/new/gc",
+    "description": "Replaces all occurrences of 'old' with 'new' throughout the entire file, prompting for confirmation before each replacement.",
+    "rtorr_description": "%3A%25s/old/new/gc%20%2D%20replace%20all%20old%20with%20new%20throughout%20file%20with%20confirmations"
+  },
+  {
+    "name": "Remove Search Highlighting",
+    "keywords": [
+      "search",
+      "highlighting",
+      "remove",
+      ":noh",
+      ":nohlsearch"
+    ],
+    "command": ":noh[lsearch]",
+    "description": "Removes the highlighting of search matches.",
+    "rtorr_description": "%3Anoh%5Blsearch%5D%20%2D%20remove%20highlighting%20of%20search%20matches"
+  },
+  {
+    "name": "vim[grep]",
+    "keywords": [
+      "search multiple files",
+      "grep",
+      "find in files",
+      "vimgrep"
+    ],
+    "command": ":vim[grep] /pattern/ {`{file}`}",
+    "description": "Searches for a given pattern in multiple files.",
+    "rtorr_description": "%3Avim%5Bgrep%5D%20/pattern/%20%7B%60%7Bfile%7D%60%7D%20%2D%20search%20for%20pattern%20in%20multiple%20files%20%0Ae.g.%20%20%3Avim%5Bgrep%5D%20/foo/%20%2A%2A/%2A"
+  },
+  {
+    "name": "cn[ext]",
+    "keywords": [
+      "next match",
+      "search navigation",
+      "cn",
+      "cnext"
+    ],
+    "command": ":cn[ext]",
+    "description": "Jumps to the next match from a previous search.",
+    "rtorr_description": "%3Acn%5Bext%5D%20%2D%20jump%20to%20the%20next%20match"
+  },
+  {
+    "name": "cp[revious]",
+    "keywords": [
+      "previous match",
+      "search navigation",
+      "cp",
+      "cprevious"
+    ],
+    "command": ":cp[revious]",
+    "description": "Jumps to the previous match from a previous search.",
+    "rtorr_description": "%3Acp%5Brevious%5D%20%2D%20jump%20to%20the%20previous%20match"
+  },
+  {
+    "name": "cope[n]",
+    "keywords": [
+      "open matches list",
+      "quickfix",
+      "search results",
+      "cope",
+      "copen"
+    ],
+    "command": ":cope[n]",
+    "description": "Opens a window that displays a list of matches from the previous search.",
+    "rtorr_description": "%3Acope%5Bn%5D%20%2D%20open%20a%20window%20containing%20the%20list%20of%20matches"
+  },
+  {
+    "name": "ccl[ose]",
+    "keywords": [
+      "close quickfix",
+      "close matches list",
+      "ccl",
+      "cclose"
+    ],
+    "command": ":ccl[ose]",
+    "description": "Closes the quickfix window, which contains the list of search results.",
+    "rtorr_description": "%3Accl%5Bose%5D%20%2D%20close%20the%20quickfix%20window"
+  },
+  {
+    "name": "tabnew",
+    "keywords": [
+      "new tab",
+      "open file in tab",
+      "tabnew"
+    ],
+    "command": ":tabnew  or  :tabnew {page.words.file}",
+    "description": "Opens a new tab, optionally with a specified file.",
+    "rtorr_description": "%3Atabnew%20%20or%20%20%3Atabnew%20%7Bpage.words.file%7D%20%2D%20open%20a%20file%20in%20a%20new%20tab"
+  },
+  {
+    "name": "Move Split to Tab",
+    "keywords": [
+      "move split to tab",
+      "split window",
+      "new tab from split",
+      "ctrl+wt"
+    ],
+    "command": "Ctrl + wT",
+    "description": "Moves the currently active split window into its own new tab.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wT%20%2D%20move%20the%20current%20split%20window%20into%20its%20own%20tab"
+  },
+  {
+    "name": "gt / :tabn[ext]",
+    "keywords": [
+      "next tab",
+      "tab navigation",
+      "gt",
+      "tabnext"
+    ],
+    "command": "gt  or  :tabn[ext]",
+    "description": "Navigates to the next tab.",
+    "rtorr_description": "gt%20%20or%20%20%3Atabn%5Bext%5D%20%2D%20move%20to%20the%20next%20tab"
+  },
+  {
+    "name": "gT / :tabp[revious]",
+    "keywords": [
+      "previous tab",
+      "tab navigation",
+      "gt",
+      "tabprevious"
+    ],
+    "command": "gT  or  :tabp[revious]",
+    "description": "Navigates to the previous tab.",
+    "rtorr_description": "gT%20%20or%20%20%3Atabp%5Brevious%5D%20%2D%20move%20to%20the%20previous%20tab"
+  },
+  {
+    "name": "Go to Tab Number",
+    "keywords": [
+      "go to tab number",
+      "tab navigation",
+      "specific tab"
+    ],
+    "command": "#gt",
+    "description": "Moves to the tab specified by the number #.",
+    "rtorr_description": "%23gt%20%2D%20move%20to%20tab%20number%20%23"
+  },
+  {
+    "name": ":tabm[ove]",
+    "keywords": [
+      "move tab",
+      "reorder tabs",
+      "tabm",
+      "tabmove"
+    ],
+    "command": ":tabm[ove] #",
+    "description": "Moves the current tab to the position specified by the number # (indexed from 0).",
+    "rtorr_description": "%3Atabm%5Bove%5D%20%23%20%2D%20move%20current%20tab%20to%20the%20%23th%20position%20%28indexed%20from%200%29"
+  },
+  {
+    "name": ":tabc[lose]",
+    "keywords": [
+      "close tab",
+      "close current tab",
+      "tabc",
+      "tabclose"
+    ],
+    "command": ":tabc[lose]",
+    "description": "Closes the current tab and all its associated windows.",
+    "rtorr_description": "%3Atabc%5Blose%5D%20%2D%20close%20the%20current%20tab%20and%20all%20its%20windows"
+  },
+  {
+    "name": ":tabo[nly]",
+    "keywords": [
+      "close other tabs",
+      "keep current tab",
+      "tabo",
+      "tabonly"
+    ],
+    "command": ":tabo[nly]",
+    "description": "Closes all tabs except the currently active tab.",
+    "rtorr_description": "%3Atabo%5Bnly%5D%20%2D%20close%20all%20tabs%20except%20for%20the%20current%20one"
+  },
+  {
+    "name": ":tabdo",
+    "keywords": [
+      "execute command on all tabs",
+      "tabdo",
+      "multiple tabs"
+    ],
+    "command": ":tabdo  command",
+    "description": "Runs the specified command on all open tabs.",
+    "rtorr_description": "%3Atabdo%20%20command%2D%20run%20the%20%20command%20%20on%20all%20tabs%20%28e.g.%20%20%3Atabdo%20q%20%2D%20closes%20all%20opened%20tabs%29"
+  },
+  {
+    "name": ":e[dit]",
+    "keywords": [
+      "edit file",
+      "open file in buffer",
+      "e",
+      "edit"
+    ],
+    "command": ":e[dit] file",
+    "description": "Opens a specified file for editing in a new buffer.",
+    "rtorr_description": "%3Ae%5Bdit%5D%20file%20%2D%20edit%20a%20file%20in%20a%20new%20buffer"
+  },
+  {
+    "name": ":bn[ext]",
+    "keywords": [
+      "next buffer",
+      "buffer navigation",
+      "bn",
+      "bnext"
+    ],
+    "command": ":bn[ext]",
+    "description": "Switches to the next buffer.",
+    "rtorr_description": "%3Abn%5Bext%5D%20%2D%20go%20to%20the%20next%20buffer"
+  },
+  {
+    "name": ":bp[revious]",
+    "keywords": [
+      "previous buffer",
+      "buffer navigation",
+      "bp",
+      "bprevious"
+    ],
+    "command": ":bp[revious]",
+    "description": "Switches to the previous buffer.",
+    "rtorr_description": "%3Abp%5Brevious%5D%20%2D%20go%20to%20the%20previous%20buffer"
+  },
+  {
+    "name": ":bd[elete]",
+    "keywords": [
+      "delete buffer",
+      "close file",
+      "bd",
+      "bdelete"
+    ],
+    "command": ":bd[elete]",
+    "description": "Deletes a specified buffer, which effectively closes the associated file.",
+    "rtorr_description": "%3Abd%5Belete%5D%20%2D%20delete%20a%20buffer%20%28close%20a%20file%29"
+  },
+  {
+    "name": ":b[uffer] #",
+    "keywords": [
+      "go to buffer by index",
+      "buffer number",
+      "buffer navigation"
+    ],
+    "command": ":b[uffer]#",
+    "description": "Switches to the buffer identified by its index number.",
+    "rtorr_description": "%3Ab%5Buffer%5D%23%20%2D%20go%20to%20a%20buffer%20by%20index%20%23"
+  },
+  {
+    "name": ":b[uffer] file",
+    "keywords": [
+      "go to buffer by file",
+      "buffer name",
+      "buffer navigation"
+    ],
+    "command": ":b[uffer] file",
+    "description": "Switches to the buffer associated with the specified file name.",
+    "rtorr_description": "%3Ab%5Buffer%5D%20file%20%2D%20go%20to%20a%20buffer%20by%20file"
+  },
+  {
+    "name": ":ls / :buffers",
+    "keywords": [
+      "list buffers",
+      "open buffers",
+      "ls",
+      "buffers"
+    ],
+    "command": ":ls  or  :buffers",
+    "description": "Displays a list of all currently open buffers.",
+    "rtorr_description": "%3Als%20%20or%20%20%3Abuffers%20%2D%20list%20all%20open%20buffers"
+  },
+  {
+    "name": ":sp[lit]",
+    "keywords": [
+      "split window",
+      "open file in split",
+      "sp",
+      "split"
+    ],
+    "command": ":sp[lit] file",
+    "description": "Opens a specified file in a new buffer and splits the window horizontally to display it.",
+    "rtorr_description": "%3Asp%5Blit%5D%20file%20%2D%20open%20a%20file%20in%20a%20new%20buffer%20and%20split%20window"
+  },
+  {
+    "name": ":vs[plit]",
+    "keywords": [
+      "vertical split",
+      "open file in vertical split",
+      "vs",
+      "vsplit"
+    ],
+    "command": ":vs[plit] file",
+    "description": "Opens a specified file in a new buffer and splits the window vertically to display it.",
+    "rtorr_description": "%3Avs%5Bplit%5D%20file%20%2D%20open%20a%20file%20in%20a%20new%20buffer%20and%20vertically%20split%20window"
+  },
+  {
+    "name": ":vert[ical] ba[ll]",
+    "keywords": [
+      "vertical windows",
+      "all buffers vertical",
+      "vert ball",
+      "vertical ball"
+    ],
+    "command": ":vert[ical] ba[ll]",
+    "description": "Arranges all open buffers as vertical windows.",
+    "rtorr_description": "%3Avert%5Bical%5D%20ba%5Bll%5D%20%2D%20edit%20all%20buffers%20as%20vertical%20windows"
+  },
+  {
+    "name": ":tab ba[ll]",
+    "keywords": [
+      "all buffers as tabs",
+      "tab ball"
+    ],
+    "command": ":tab ba[ll]",
+    "description": "Opens all open buffers in separate tabs.",
+    "rtorr_description": "%3Atab%20ba%5Bll%5D%20%2D%20edit%20all%20buffers%20as%20tabs"
+  },
+  {
+    "name": "Split Window",
+    "keywords": [
+      "split window",
+      "horizontal split",
+      "ctrl+ws"
+    ],
+    "command": "Ctrl + ws",
+    "description": "Splits the current window horizontally, creating a new split.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20ws%20%2D%20split%20window"
+  },
+  {
+    "name": "Split Window Vertically",
+    "keywords": [
+      "vertical split",
+      "split window vertically",
+      "ctrl+wv"
+    ],
+    "command": "Ctrl + wv",
+    "description": "Splits the current window vertically, creating a new split.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wv%20%2D%20split%20window%20vertically"
+  },
+  {
+    "name": "Switch Windows",
+    "keywords": [
+      "switch windows",
+      "navigate splits",
+      "ctrl+ww"
+    ],
+    "command": "Ctrl + ww",
+    "description": "Switches the focus to the next window within the current split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20ww%20%2D%20switch%20windows"
+  },
+  {
+    "name": "Quit Window",
+    "keywords": [
+      "close window",
+      "quit split",
+      "ctrl+wq"
+    ],
+    "command": "Ctrl + wq",
+    "description": "Closes the currently active window within a split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wq%20%2D%20quit%20a%20window"
+  },
+  {
+    "name": "Exchange Windows",
+    "keywords": [
+      "exchange windows",
+      "swap splits",
+      "ctrl+wx"
+    ],
+    "command": "Ctrl + wx",
+    "description": "Exchanges the position of the current window with the next one in the split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wx%20%2D%20exchange%20current%20window%20with%20next%20one"
+  },
+  {
+    "name": "Equalize Window Sizes",
+    "keywords": [
+      "equalize window sizes",
+      "resize windows",
+      "ctrl+w="
+    ],
+    "command": "Ctrl + w=",
+    "description": "Resizes all windows in the current split arrangement to have equal height and width.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20w%3D%20%2D%20make%20all%20windows%20equal%20height%20%26%20width"
+  },
+  {
+    "name": "Move to Left Window",
+    "keywords": [
+      "move to left window",
+      "vertical split navigation",
+      "ctrl+wh"
+    ],
+    "command": "Ctrl + wh",
+    "description": "Moves the cursor to the window located to the left in a vertical split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wh%20%2D%20move%20cursor%20to%20the%20left%20window%20%28vertical%20split%29"
+  },
+  {
+    "name": "Move to Right Window",
+    "keywords": [
+      "move to right window",
+      "vertical split navigation",
+      "ctrl+wl"
+    ],
+    "command": "Ctrl + wl",
+    "description": "Moves the cursor to the window located to the right in a vertical split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wl%20%2D%20move%20cursor%20to%20the%20right%20window%20%28vertical%20split%29"
+  },
+  {
+    "name": "Move to Window Below",
+    "keywords": [
+      "move to window below",
+      "horizontal split navigation",
+      "ctrl+wj"
+    ],
+    "command": "Ctrl + wj",
+    "description": "Moves the cursor to the window located below in a horizontal split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wj%20%2D%20move%20cursor%20to%20the%20window%20below%20%28horizontal%20split%29"
+  },
+  {
+    "name": "Move to Window Above",
+    "keywords": [
+      "move to window above",
+      "horizontal split navigation",
+      "ctrl+wk"
+    ],
+    "command": "Ctrl + wk",
+    "description": "Moves the cursor to the window located above in a horizontal split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wk%20%2D%20move%20cursor%20to%20the%20window%20above%20%28horizontal%20split%29"
+  },
+  {
+    "name": "Maximize Window Height (Left)",
+    "keywords": [
+      "maximize window height",
+      "full height window",
+      "leftmost window",
+      "ctrl+wh"
+    ],
+    "command": "Ctrl + wH",
+    "description": "Makes the current window occupy the full height of the screen and positions it as the leftmost window in a vertical split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wH%20%2D%20make%20current%20window%20full%20height%20at%20far%20left%20%28leftmost%20vertical%20window%29"
+  },
+  {
+    "name": "Maximize Window Height (Right)",
+    "keywords": [
+      "maximize window height",
+      "full height window",
+      "rightmost window",
+      "ctrl+wl"
+    ],
+    "command": "Ctrl + wL",
+    "description": "Makes the current window occupy the full height of the screen and positions it as the rightmost window in a vertical split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wL%20%2D%20make%20current%20window%20full%20height%20at%20far%20right%20%28rightmost%20vertical%20window%29"
+  },
+  {
+    "name": "Maximize Window Width (Bottom)",
+    "keywords": [
+      "maximize window width",
+      "full width window",
+      "bottommost window",
+      "ctrl+wj"
+    ],
+    "command": "Ctrl + wJ",
+    "description": "Makes the current window occupy the full width of the screen and positions it as the bottommost window in a horizontal split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wJ%20%2D%20make%20current%20window%20full%20width%20at%20the%20very%20bottom%20%28bottommost%20horizontal%20window%29"
+  },
+  {
+    "name": "Maximize Window Width (Top)",
+    "keywords": [
+      "maximize window width",
+      "full width window",
+      "topmost window",
+      "ctrl+wk"
+    ],
+    "command": "Ctrl + wK",
+    "description": "Makes the current window occupy the full width of the screen and positions it as the topmost window in a horizontal split arrangement.",
+    "rtorr_description": "Ctrl%20%20%2B%20%20wK%20%2D%20make%20current%20window%20full%20width%20at%20the%20very%20top%20%28topmost%20horizontal%20window%29"
+  },
+  {
+    "name": "zf",
+    "keywords": [
+      "create fold",
+      "manual fold",
+      "fold to motion"
+    ],
+    "command": "zf",
+    "description": "Manually defines a code fold from the current cursor position up to the specified motion.",
+    "rtorr_description": "zf%20%2D%20manually%20define%20a%20fold%20up%20to%20motion"
+  },
+  {
+    "name": "zd",
+    "keywords": [
+      "delete fold",
+      "remove fold"
+    ],
+    "command": "zd",
+    "description": "Deletes the code fold located under the cursor.",
+    "rtorr_description": "zd%20%2D%20delete%20fold%20under%20the%20cursor"
+  },
+  {
+    "name": "za",
+    "keywords": [
+      "toggle fold",
+      "open/close fold"
+    ],
+    "command": "za",
+    "description": "Toggles the open/closed state of the code fold located under the cursor.",
+    "rtorr_description": "za%20%2D%20toggle%20fold%20under%20the%20cursor"
+  },
+  {
+    "name": "zo",
+    "keywords": [
+      "open fold",
+      "expand fold"
+    ],
+    "command": "zo",
+    "description": "Opens (expands) the code fold located under the cursor.",
+    "rtorr_description": "zo%20%2D%20open%20fold%20under%20the%20cursor"
+  },
+  {
+    "name": "zc",
+    "keywords": [
+      "close fold",
+      "collapse fold"
+    ],
+    "command": "zc",
+    "description": "Closes (collapses) the code fold located under the cursor.",
+    "rtorr_description": "zc%20%2D%20close%20fold%20under%20the%20cursor"
+  },
+  {
+    "name": "zr",
+    "keywords": [
+      "reduce folds",
+      "open folds one level"
+    ],
+    "command": "zr",
+    "description": "Reduces the folding level by one, effectively opening folds at the outermost level.",
+    "rtorr_description": "zr%20%2D%20reduce%20%28open%29%20all%20folds%20by%20one%20level"
+  },
+  {
+    "name": "zm",
+    "keywords": [
+      "fold more",
+      "close folds one level"
+    ],
+    "command": "zm",
+    "description": "Increases the folding level by one, effectively closing folds at the current level.",
+    "rtorr_description": "zm%20%2D%20fold%20more%20%28close%29%20all%20folds%20by%20one%20level"
+  },
+  {
+    "name": "zi",
+    "keywords": [
+      "toggle folding",
+      "enable/disable folding"
+    ],
+    "command": "zi",
+    "description": "Toggles the folding functionality on or off.",
+    "rtorr_description": "zi%20%2D%20toggle%20folding%20functionality"
+  },
+  {
+    "name": "]c",
+    "keywords": [
+      "next change",
+      "jump to change",
+      "change navigation"
+    ],
+    "command": "]c",
+    "description": "Jumps to the start of the next change in the document.",
+    "rtorr_description": "%5Dc%20%2D%20jump%20to%20start%20of%20next%20change"
+  },
+  {
+    "name": "[c",
+    "keywords": [
+      "previous change",
+      "jump to change",
+      "change navigation"
+    ],
+    "command": "[c",
+    "description": "Jumps to the start of the previous change in the document.",
+    "rtorr_description": "%5Bc%20%2D%20jump%20to%20start%20of%20previous%20change"
+  },
+  {
+    "name": "do / :diffg[et]",
+    "keywords": [
+      "get diff",
+      "obtain difference",
+      "do",
+      "diffget"
+    ],
+    "command": "do  or  :diffg[et]",
+    "description": "Obtains (gets) the difference from another buffer and applies it to the current buffer.",
+    "rtorr_description": "do%20%20or%20%20%3Adiffg%5Bet%5D%20%2D%20obtain%20%28get%29%20difference%20%28from%20other%20buffer%29"
+  },
+  {
+    "name": "dp / :diffpu[t]",
+    "keywords": [
+      "put diff",
+      "apply difference",
+      "dp",
+      "diffput"
+    ],
+    "command": "dp  or  :diffpu[t]",
+    "description": "Puts (applies) the difference from the current buffer to another buffer.",
+    "rtorr_description": "dp%20%20or%20%20%3Adiffpu%5Bt%5D%20%2D%20put%20difference%20%28to%20other%20buffer%29"
+  },
+  {
+    "name": ":diffthis",
+    "keywords": [
+      "include in diff",
+      "diff current window",
+      "diffthis"
+    ],
+    "command": ":diffthis",
+    "description": "Marks the current window as part of the diff comparison.",
+    "rtorr_description": "%3Adiffthis%20%2D%20make%20current%20window%20part%20of%20diff"
+  },
+  {
+    "name": ":dif[fupdate]",
+    "keywords": [
+      "update diff",
+      "refresh differences",
+      "dif",
+      "diffupdate"
+    ],
+    "command": ":dif[fupdate]",
+    "description": "Updates the displayed differences between buffers in diff mode.",
+    "rtorr_description": "%3Adif%5Bfupdate%5D%20%2D%20update%20differences"
+  },
+  {
+    "name": ":diffo[ff]",
+    "keywords": [
+      "disable diff",
+      "turn off diff mode",
+      "diffo",
+      "diffoff"
+    ],
+    "command": ":diffo[ff]",
+    "description": "Disables diff mode for the current window.",
+    "rtorr_description": "%3Adiffo%5Bff%5D%20%2D%20switch%20off%20diff%20mode%20for%20current%20window"
+  }
+]

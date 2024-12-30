@@ -1,0 +1,12 @@
+{
+    "ID": "ddd30a33-c565-4dcf-9558-7bc5bb433e13",
+    "ActionKeyword": "vm",
+    "Name": "Vim",
+    "Description": "Search Vim commands with Flow Launcher.",
+    "Author": "MoAlSeifi",
+    "Version": "0.0.1",
+    "Language": "python",
+    "Website": "https://github.com/MoAlSeifi",
+    "IcoPath": "src/icon.png",
+    "ExecuteFileName": "main.py"
+}
