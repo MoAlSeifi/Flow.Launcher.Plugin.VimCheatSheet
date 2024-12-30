@@ -9,9 +9,9 @@ on:
 
 jobs:
   publish:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
-      python_ver: 3.13
+      python_ver: 3.11
 
     steps:
       - uses: actions/checkout@v2
