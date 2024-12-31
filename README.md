@@ -1,4 +1,4 @@
-# Flow.Launcher.Plugin.VimCheatSheet
+# Vim Cheat Sheat | Flow Plugin
 
 ![dark-cover](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/blob/main/src/readme/Dark-Cover.png#gh-dark-mode-only)
 ![light-cover](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/blob/main/src/readme/Light-Cover.png#gh-light-mode-only)
