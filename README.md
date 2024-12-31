@@ -30,7 +30,12 @@ This Plugin Grants you Instant access to **Vim commands** and **shortcuts** via 
 
 ### Flow Plugin Manager
 
-⏳ Pending Flow Launcher Team Approval
+- Copy the **link** of the zip file in [Latest Release](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/releases/latest)
+- In Flow Launcher enter this line :
+  - ` pm install <zip-file-url>`
+- Accept the warning
+
+⏳ Adding the Plugin to the Flow **Plugin Store** is Pending **Flow Launcher Team** Approval.
 
 ## Disclaimer
 

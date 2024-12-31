@@ -17,7 +17,7 @@ def load_vim_commands(file_path):
 
 vim_commands = load_vim_commands('db/commands.json')
 # vim_commands = load_vim_commands('commands.Not_url_encoded.json')
-
+icon_path = "src/icon.png"
 
 class VimCheatSheet(FlowLauncher):
 
@@ -31,7 +31,7 @@ class VimCheatSheet(FlowLauncher):
                 results.append({
                     "Title": f"{command["command"]}",
                     "SubTitle": f"{command["name"]} | {command["description"]}",
-                    "IcoPath": "icon.png",
+                    "IcoPath": icon_path,
                     # "ContextData": ["foo", "bar"],
                     "JsonRPCAction": {
                         "method": "open_url",
@@ -46,10 +46,10 @@ class VimCheatSheet(FlowLauncher):
             results.append({
                 "Title": "No match found",
                 "SubTitle": "Try searching for a different Vim command",
-                "IcoPath": "icon.png",
+                "IcoPath": icon_path,
                 "JsonRPCAction": {
                     "method": "open_url",
-                    "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher"],
+                    "parameters": ["https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet"],
                     "dontHideAfterAction": False
                 }
             })
