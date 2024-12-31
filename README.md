@@ -1,20 +1,43 @@
 # Flow.Launcher.Plugin.VimCheatSheet
 
-Instant access to **Vim commands** and **shortcuts** as an interactive cheat sheet
+![dark-cover](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/blob/main/src/readme/Dark-Cover.png#gh-dark-mode-only)
+![light-cover](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/blob/main/src/readme/Light-Cover.png#gh-light-mode-only)
+
+This Plugin Grants you Instant access to **Vim commands** and **shortcuts** via an **interactive cheat sheet**
+
+![dark-demo](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/blob/main/src/readme/dark-demo.gif#gh-dark-mode-only)
+![light-demo](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/blob/main/src/readme/light-demo.gif#gh-light-mode-only)
 
 ⚠ this project is in its early stages and under Development (*but it gets the job done*)
+
+## Usage
+
+| Keyword        | Description                                                                    | Example     |
+| -------------- | ------------------------------------------------------------------------------ | ----------- |
+| ``vm {query}`` | Search for vim**commands** and **shortcuts** for a given `query` | `vm exit` |
 
 ## Features
 
 * Search for Vim Commands either by their description or their Hotkey.
-  ![demo](https://github.com/user-attachments/assets/70454664-65d0-4bde-8319-7558c1d24115)
+
+## Installation
+
+### Manual Installation
+
+* Download the [Latest Release](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/releases/latest)
+* Extract the zip file in `%appdata%\FlowLauncher\Plugins\`
+* Restart Flow Launcher (fully exit and Open)
+
+### Flow Plugin Manager
+
+⏳ Pending Flow Launcher Team Approval
 
 ## Disclaimer
 
-- The database of this repository is the result of heavy A.I Assitance, so it might have mistakes; Report if you encounter any.
+- The database of this repository is the result of heavy A.I Assistance, so it might have mistakes; Report if you encounter any.
 - Any Feature requests or PR's are welcomed.
-- you might find this plugin as a bit
+- you might find this plugin as a bit incomplete, since it was designed as a personal project, but I'm working to make it more robust.
 
 ## References
 
-- [Vim Cheat Sheet](https://vim.rtorr.com/ "rtorr website") as source for [commands.json](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/blob/main/db/commands.json "commands json database")
+- Powered by [Vim Cheat Sheet](https://vim.rtorr.com/ "rtorr website") as source for [commands.json](https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet/blob/main/db/commands.json "commands json database")
