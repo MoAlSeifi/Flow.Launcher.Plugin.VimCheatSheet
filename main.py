@@ -29,8 +29,8 @@ class VimCheatSheet(FlowLauncher):
             if any(keyword.startswith(query_lower) or query_lower == keyword for keyword in command["keywords"]):
             # if any(keyword in query_lower for keyword in command["keywords"]):
                 results.append({
-                    "Title": f"{command["command"]}",
-                    "SubTitle": f"{command["name"]} | {command["description"]}",
+                    "Title": f"{command['command']}",
+                    "SubTitle": f"{command['name']} | {command['description']}",
                     "IcoPath": icon_path,
                     # "ContextData": ["foo", "bar"],
                     "JsonRPCAction": {

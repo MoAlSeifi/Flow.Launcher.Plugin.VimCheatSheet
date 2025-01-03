@@ -4,7 +4,7 @@
     "Name": "Vim",
     "Description": "Search Vim commands with Flow Launcher.",
     "Author": "MoAlSeifi",
-    "Version": "0.0.1",
+    "Version": "0.0.2",
     "Language": "python",
     "Website": "https://github.com/MoAlSeifi",
     "IcoPath": "src/icon.png",
