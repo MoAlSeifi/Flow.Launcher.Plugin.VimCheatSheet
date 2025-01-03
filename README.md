@@ -19,6 +19,8 @@ This Plugin Grants you Instant access to **Vim commands** and **shortcuts** via 
 ## Features
 
 * Search for Vim Commands either by their description or their Hotkey.
+* By entering on each command you will be redirected to [Vim Cheat Sheet](https://vim.rtorr.com/ "rtorr website") on the same command.
+  * ⚠ all text fragments aren't tested and aren't fully functional, please report if any of them didn't work.
 
 ## Installation
 
@@ -31,7 +33,7 @@ This Plugin Grants you Instant access to **Vim commands** and **shortcuts** via 
 ### Flow Plugin Manager
 
 * In Flow Launcher enter this line :
-* `pm install VimCheatSheet`
+  * `pm install VimCheatSheet`
 * Click OK
 
 ## Disclaimer

@@ -1,24 +1,26 @@
 name: Publish Release
 
 on:
-  workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: 
+      - main
     paths-ignore: |
-      - .github/workflows/*
-      - src/readme/*
-      - README.md
+      - '.github/workflows/*'
+      - 'src/readme/*'
+      - 'README.md'
+
+  workflow_dispatch:
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      python_ver: 3.11
+      python_ver: 3.13
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Set up Python ${{ env.python_ver }}
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: ${{ env.python_ver }}
       - name: get version
