@@ -9,6 +9,9 @@ import json
 from flowlauncher import FlowLauncher
 import webbrowser
 
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 def load_vim_commands(file_path):
     """Load Vim commands from a JSON file."""
@@ -19,27 +22,77 @@ vim_commands = load_vim_commands('db/commands.json')
 # vim_commands = load_vim_commands('commands.Not_url_encoded.json')
 icon_path = "src/icon.png"
 
+# Global variables for TF-IDF processing
+documents = [
+    " ".join(command["keywords"]) + " " + command["description"] for command in vim_commands
+]
+
+vectorizer = TfidfVectorizer()
+tfidf_matrix = vectorizer.fit_transform(documents)
+
 class VimCheatSheet(FlowLauncher):
 
     def query(self, query):
-        # """Search for Vim commands matching the user query."""
-        results = []
-        query_lower = query.lower()  # Convert query to lowercase for case-insensitive matching
-        for command in vim_commands:
-            if any(keyword.startswith(query_lower) or query_lower == keyword for keyword in command["keywords"]):
-            # if any(keyword in query_lower for keyword in command["keywords"]):
-                results.append({
-                    "Title": f"{command["command"]}",
-                    "SubTitle": f"{command["name"]} | {command["description"]}",
-                    "IcoPath": icon_path,
-                    # "ContextData": ["foo", "bar"],
-                    "JsonRPCAction": {
-                        "method": "open_url",
-                        "parameters": [f"https://vim.rtorr.com/#:~:text={command['rtorr_description']}"],
-                        "dontHideAfterAction": False
-                    }
-                })
-                # print(results)
+        # Transform the query into a TF-IDF vector
+        query_vector = vectorizer.transform([query])
+
+        # Compute cosine similarity between the query and all documents
+        similarities = cosine_similarity(query_vector, tfidf_matrix).flatten()
+
+        # Separate matches into keyword and description categories
+        keyword_matches = []
+        description_matches = []
+
+        if similarities.max() > 0:  # Check if there are relevant matches
+            top_indices = similarities.argsort()[::-1]  # Sort indices by similarity in descending order
+
+            for index in top_indices:
+                if similarities[index] == 0:  # Stop if similarity is zero
+                    break
+
+                command = vim_commands[index]
+
+                # Check if the query matches keywords or description
+                if any(query.lower() in keyword.lower() for keyword in command["keywords"]):
+                    keyword_matches.append({
+                        "Title": f"{command['command']}",
+                        "SubTitle": f"{command['name']} | {command['description']}",
+                        "IcoPath": icon_path,
+                        "JsonRPCAction": {
+                            "method": "open_url",
+                            "parameters": [f"https://vim.rtorr.com/#:~:text={command['rtorr_description']}"],
+                            "dontHideAfterAction": False
+                        }
+                    })
+                else:
+                    description_matches.append({
+                        "Title": f"{command['command']}",
+                        "SubTitle": f"{command['name']} | {command['description']}",
+                        "IcoPath": icon_path,
+                        "JsonRPCAction": {
+                            "method": "open_url",
+                            "parameters": [f"https://vim.rtorr.com/#:~:text={command['rtorr_description']}"],
+                            "dontHideAfterAction": False
+                        }
+                    })
+
+        # Combine keyword matches first, then description matches
+        results = keyword_matches + description_matches
+
+           # Fallback if no match is found 
+        if not results:
+            results.append({
+                "Title": "No match found",
+                "SubTitle": "Try searching for a different Vim command",
+                "IcoPath": icon_path,
+                "JsonRPCAction": {
+                    "method": "open_url",
+                    "parameters": ["https://github.com/MoAlSeifi/Flow.Launcher.Plugin.VimCheatSheet"],
+                    "dontHideAfterAction": False
+                }
+            })
+
+        return results
 
         # Fallback if no match is found 
         if not results:
